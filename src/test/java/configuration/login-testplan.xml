@@ -1,0 +1,10 @@
+<suite name="Login Test Suite">
+    <parameter name="url" value="https://web.t4.pc.ekinoffy.com/"/>
+    <test name="Login Test on Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testcases.LoginTest"/>
+        </classes>
+    </test>
+</suite>
+
