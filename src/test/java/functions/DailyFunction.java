@@ -1,8 +1,8 @@
 package functions;
 
-import pages.DailyPage;
+import pages.DailyEmployee;
 
-public class DailyFunction extends DailyPage {
+public class DailyFunction extends DailyEmployee {
 
     public static void main(String[] args) {
 

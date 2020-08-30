@@ -1,0 +1,23 @@
+query getDailyEmployees ($date: String!, $status: String!, $name:String!, $page:Int!) {
+getDailyEmployees(
+input: {
+date: $date
+page: $page
+limit: 25
+status: $status
+name: $name
+}
+) {
+data {
+statusAM
+statusPM
+employee {
+fullName
+}
+}
+metaData {
+numOfPage
+limit
+}
+}
+}

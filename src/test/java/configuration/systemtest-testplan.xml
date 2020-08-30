@@ -1,0 +1,29 @@
+<suite name="System Test Suite">
+    <parameters>
+        <parameter name="url" value="https://web.t4.pc.ekinoffy.com/"/>
+    </parameters>
+    <test name="Test on Chrome">
+        <parameters>
+            <parameter name="browser" value="chrome"/>
+            <parameter name="tokenName" value="token"/>
+            <parameter name="tokenValue"
+                       value="{&quot;value&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJqb2UiLCJleHAiOjE2MDEzMDYyNDksInVzZXJJbmZvIjoie1wiZW1haWxcIjpcImJpY2gtdGh1eS5uZ3V5ZW4tdGhpQGVraW5vLmNvbVwifSJ9.jOPpJx5LkuwO_IVW4F1TGqZ2puVG_C0Uhsi7wqdpkUE&quot;,&quot;expired&quot;:91598721447942}"/>
+        </parameters>
+        <packages>
+            <package name="testcases"/>
+        </packages>
+    </test>
+
+    <test name="Test on Firefox">
+        <parameters>
+            <parameter name="browser" value="firefox"/>
+            <parameter name="tokenName" value="token"/>
+            <parameter name="tokenValue"
+                       value="{&quot;value&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJqb2UiLCJleHAiOjE2MDEzMDYyNDksInVzZXJJbmZvIjoie1wiZW1haWxcIjpcImJpY2gtdGh1eS5uZ3V5ZW4tdGhpQGVraW5vLmNvbVwifSJ9.jOPpJx5LkuwO_IVW4F1TGqZ2puVG_C0Uhsi7wqdpkUE&quot;,&quot;expired&quot;:91598721447942}"/>
+        </parameters>
+        <packages>SS
+            <package name="testcases"/>
+        </packages>
+    </test>
+</suite>
+
